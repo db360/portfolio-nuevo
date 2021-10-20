@@ -20,11 +20,23 @@
 
 .pl-desc {
     margin: 2rem 0;
+    font-weight: 300;
 }
 
 .pl-list {
     display: flex;
-    width: 70%;
+    width: 90%;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 1rem;
+}
+
+@media screen and (max-width:480px) {
+    .pl {
+        padding: 10px;
+    }
+
+    .pl-texts {
+        width: 100%;
+    }
 }
